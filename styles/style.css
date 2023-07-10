@@ -49,7 +49,7 @@ text-decoration: none;
   margin-right: 98px;
 }
 
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -58,6 +58,7 @@ text-decoration: none;
   min-height: 24px;
   padding-top: 5.4px;
   padding-left: 100px;
+  font-style: normal;
   
 }
 
@@ -326,9 +327,10 @@ text-decoration: none;
   gap: 356px;
   margin: 150px 50px 90px 50px;
   min-height: 97px;
+  
 }
 
-.footer .adress {
+.footer .address {
   grid-column: 1;
   padding-left: 0px;
     display: flex;
