@@ -50,12 +50,13 @@ text-decoration: none;
 }
 
 .adress {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
   min-width: 240px;
   min-height: 24px;
   padding-top: 5.4px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   padding-left: 60px;
   
 }
